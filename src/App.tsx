@@ -9,13 +9,16 @@ import { TextFieldBorderlessExample } from './Components/LebelTextfields';
 import { TextFieldErrorMessageExample } from './Components/SlideButton';
 import { ProgressIndicatorBasicExample } from './Components/DefaultProgressBar';
 import { NavBasicExample } from './Components/NavBar';
+import { CommandBarExample } from './Components/CommandBar';
+import { HeaderExample } from './Components/Header';
 
 initializeIcons();
 
 export const App: React.FunctionComponent = () => {
   return (
     <div>
-      <NavBasicExample />
+      <HeaderExample />
+      <CommandBarExample />
     </div>
   );
 };
