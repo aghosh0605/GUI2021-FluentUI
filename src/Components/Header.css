@@ -1,11 +1,160 @@
 .HeaderExample {
   /* -NavHeader */
-
-  position: absolute;
-  height: 48px;
+  display: flex;
+/* position:absolute;
+ height: 48px;
   left: 0px;
   right: 0px;
-  top: 0px;
+  top: 0px;  */
+  justify-content: space-evenly;
 
   background: #35363a;
+}
+#title{
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 10px;
+  
+  color: #FFFFFF;
+}
+#kill{
+  margin-top: 7px;
+  background: #D05B5B;
+border: 1px solid #551010;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+font-family: Segoe UI;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #FFFFFF;
+}
+#Drive{
+  margin-top: 7px;
+  background: #58A942;
+border: 1px solid #015E0A;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+font-family: Segoe UI;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #FFFFFF;
+}
+#Toggle{
+  margin-top: 12px;
+  position:fixed;
+
+}
+#TextBoxes{
+  margin-top: 7px;
+  margin-bottom: 8px;
+  background: #979798;
+opacity: 0.6;
+border: 2px solid #35363A;
+box-sizing: border-box;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+}
+#navtxt{
+
+font-family: Segoe UI;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+
+color: #FFFFFF;
+}
+#myico{
+  /* font-family: Fabric MDL2 Assets; */
+font-size: 25px;
+line-height: 100%;
+/* identical to box height, or 16px */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Grey palette / White */
+
+color: #FFFFFF;
+}
+#myico{
+  /* font-family: Fabric MDL2 Assets; */
+font-size: 27px;
+line-height: 100%;
+/* identical to box height, or 16px */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Grey palette / White */
+
+color: #FFFFFF;
+}
+#myico3{
+  /* font-family: Fabric MDL2 Assets; */
+font-size: 32px;
+line-height: 100%;
+/* identical to box height, or 16px */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Grey palette / White */
+
+color: #FFFFFF;
+}
+#Textboxes2{
+  background: #979798;
+opacity: 0.6;
+border-radius: 6px;
+color: white;
+margin: 6px;
+}
+#myico2{
+  /* font-family: Fabric MDL2 Assets; */
+font-size: 25px;
+line-height: 100%;
+/* identical to box height, or 16px */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Grey palette / White */
+
+color: #62C554;
+
+}
+#icobtn{
+  background-color: #35363a;
+  border: 0;
+  background: none;
+  box-shadow: none;
+  border-radius: 0px;
 }
