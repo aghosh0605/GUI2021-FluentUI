@@ -10,9 +10,9 @@ const overflowButtonProps: IButtonProps = { ariaLabel: 'More commands' };
 
 export const CommandBarExample: React.FunctionComponent = () => {
   return (
-    <div>
+    <div className="CommandBarExample">
       <CommandBar
-        className="CommandBarExample"
+        id="element"
         items={_items}
         overflowButtonProps={overflowButtonProps}
         ariaLabel="Use left and right arrow keys to navigate between commands"
@@ -42,33 +42,5 @@ const _items: ICommandBarItemProps[] = [
         },
       ],
     },
-  },
-  {
-    key: 'upload',
-    text: 'Upload',
-    iconProps: { iconName: 'Upload' },
-    split: true,
-    disabled: true,
-    href: 'https://developer.microsoft.com/en-us/fluentui',
-    subMenuProps: {
-      items: [
-        { key: 'item1', text: 'Item One' },
-        { key: 'item2', text: 'Item Two' },
-      ],
-    },
-  },
-  {
-    key: 'share',
-    text: 'Share',
-    iconProps: { iconName: 'Share' },
-    disabled: true,
-  },
-  {
-    key: 'download',
-    text: 'Download',
-    ariaLabel: 'Download',
-    iconProps: { iconName: 'Download' },
-    iconOnly: true,
-    disabled: true,
   },
 ];

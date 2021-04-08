@@ -1,5 +1,7 @@
 .CommandBarExample {
-  position: absolute;
+  display: flex;
+  justify-content: left;
+  position: sticky;
   height: 44px;
   left: 0px;
   right: 0px;

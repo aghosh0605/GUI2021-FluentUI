@@ -11,14 +11,17 @@ import { ProgressIndicatorBasicExample } from './Components/DefaultProgressBar';
 import { NavBasicExample } from './Components/NavBar';
 import { CommandBarExample } from './Components/CommandBar';
 import { HeaderExample } from './Components/Header';
+import { FooterExample } from './Components/Footer';
 
 initializeIcons();
 
 export const App: React.FunctionComponent = () => {
   return (
     <div>
-
-      <HeaderExample/>
+      <HeaderExample />
+      <NavBasicExample />
+      <CommandBarExample />
+      <FooterExample />
     </div>
   );
 };
