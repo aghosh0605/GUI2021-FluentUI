@@ -17,8 +17,8 @@ initializeIcons();
 export const App: React.FunctionComponent = () => {
   return (
     <div>
-      <HeaderExample />
-      <CommandBarExample />
+
+      <HeaderExample/>
     </div>
   );
 };
