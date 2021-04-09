@@ -28,8 +28,6 @@ const menuProps: IContextualMenuProps = {
   ],
 };
 // Example formatting
-const stackTokens: IStackTokens = { childrenGap: 40 };
-
 export const ButtonSplitExample: React.FunctionComponent<IButtonExampleProps> = (
   props
 ) => {
@@ -37,35 +35,41 @@ export const ButtonSplitExample: React.FunctionComponent<IButtonExampleProps> = 
 
   return (
     <div className="CommandBarExample">
-      <Stack horizontal wrap tokens={stackTokens}>
-        <DefaultButton
-          id="auto"
-          text="Auto"
-          splitButtonAriaLabel="See 2 options"
-          aria-roledescription="split button"
-          menuProps={menuProps}
-          onClick={_alertClicked}
-          checked={checked}
-        />
-        <DefaultButton
-          id="bio"
-          text="BIO"
-          splitButtonAriaLabel="See 2 options"
-          aria-roledescription="split button"
-          menuProps={menuProps}
-          onClick={_alertClicked}
-          checked={checked}
-        />
-        <DefaultButton
-          id="er"
-          text="ER"
-          splitButtonAriaLabel="See 2 options"
-          aria-roledescription="split button"
-          menuProps={menuProps}
-          onClick={_alertClicked}
-          checked={checked}
-        />
-        <DefaultButton id="clear" text="Clear All" onClick={_alertClicked} />
+      <DefaultButton
+        id="auto"
+        text="Auto"
+        splitButtonAriaLabel="See 2 options"
+        aria-roledescription="split button"
+        menuProps={menuProps}
+        onClick={_alertClicked}
+        checked={checked}
+      />
+      <DefaultButton
+        id="bio"
+        text="BIO"
+        splitButtonAriaLabel="See 2 options"
+        aria-roledescription="split button"
+        menuProps={menuProps}
+        onClick={_alertClicked}
+        checked={checked}
+      />
+      <DefaultButton
+        id="er"
+        text="ER"
+        splitButtonAriaLabel="See 2 options"
+        aria-roledescription="split button"
+        menuProps={menuProps}
+        onClick={_alertClicked}
+        checked={checked}
+      />
+      <DefaultButton id="clear" text="Clear All" onClick={_alertClicked} />
+      <Stack horizontal horizontalAlign="center" className="outputs">
+        <p id="navtxt">Distancee</p>
+        <input type="text" id="TextBoxes" value="Value" />
+        <p id="navtxt">Difference</p>
+        <input type="text" id="TextBoxes" value="Value" />
+        <p id="navtxt">Leg</p>
+        <input type="text" id="TextBoxes" value="Value" />
       </Stack>
     </div>
   );

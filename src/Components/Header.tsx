@@ -30,13 +30,13 @@ export const HeaderExample = () => {
       <DefaultButton text="Kill Switch" id="kill" onClick={mybtnfun} />
       <DefaultButton text="Drive" id="Drive" onClick={mybtnfun} />
       <p id="navtxt">Heading</p>
-      <input type="text" id="TextBoxes" />
+      <input type="text" id="TextBoxes" value="Value" />
       <p id="navtxt">Latitude</p>
-      <input type="text" id="TextBoxes" />
+      <input type="text" id="TextBoxes" value="Value" />
       <p id="navtxt">Longitude</p>
-      <input type="text" id="TextBoxes" />
+      <input type="text" id="TextBoxes" value="Value" />
       <p id="navtxt">Altitude</p>
-      <input type="text" id="TextBoxes" />
+      <input type="text" id="TextBoxes" value="Value" />
       <button id="icobtn" onClick={mybtnfun}>
         <Icon iconName="AwayStatus" id="myico2" />
       </button>
