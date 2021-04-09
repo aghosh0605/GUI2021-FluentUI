@@ -28,10 +28,10 @@ export const FooterExample: React.FunctionComponent = () => {
 
   return (
     <Stack horizontal horizontalAlign="space-evenly" className="inside">
-      <ProgressIndicator label="CPU %" percentComplete={percentComplete} />
-      <ProgressIndicator label="Network %" percentComplete={percentComplete} />
-      <ProgressIndicator label="Memory %" percentComplete={percentComplete} />
-      <ProgressIndicator label="Power %" percentComplete={percentComplete} />
+      <ProgressIndicator label={<label><span>CPU %</span></label>} percentComplete={percentComplete}/>
+      <ProgressIndicator label={<label><span>Network %</span></label>} percentComplete={percentComplete} />
+      <ProgressIndicator label={<label><span>Memory %</span></label>} percentComplete={percentComplete} />
+      <ProgressIndicator label={<label><span>Power %</span></label>} percentComplete={percentComplete} />
     </Stack>
   );
 };

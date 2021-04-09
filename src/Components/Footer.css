@@ -9,3 +9,5 @@
   mix-blend-mode: hard-light;
   border: 1px solid #000000;
 }
+
+label span {color: white;}
