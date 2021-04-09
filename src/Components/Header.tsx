@@ -1,6 +1,5 @@
 import * as React from 'react';
 import './Header.css';
-import { ButtonDefaultExample } from './DefaultButton';
 import { Toggle } from 'office-ui-fabric-react/lib/Toggle';
 import {
   DefaultButton,
