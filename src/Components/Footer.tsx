@@ -4,14 +4,10 @@ import { ProgressIndicator } from 'office-ui-fabric-react/lib/ProgressIndicator'
 
 import {
   DefaultButton,
-  PrimaryButton,
+  IStackStyles,
   Stack,
   IStackTokens,
 } from 'office-ui-fabric-react';
-import {
-  TextField,
-  MaskedTextField,
-} from 'office-ui-fabric-react/lib/TextField';
 import { initializeIcons } from '@uifabric/icons';
 import { Icon } from '@fluentui/react/lib/Icon';
 
@@ -31,11 +27,11 @@ export const FooterExample: React.FunctionComponent = () => {
   });
 
   return (
-    <div className="Footer">
+    <Stack horizontal horizontalAlign="space-evenly" className="inside">
       <ProgressIndicator label="CPU %" percentComplete={percentComplete} />
       <ProgressIndicator label="Network %" percentComplete={percentComplete} />
       <ProgressIndicator label="Memory %" percentComplete={percentComplete} />
       <ProgressIndicator label="Power %" percentComplete={percentComplete} />
-    </div>
+    </Stack>
   );
 };

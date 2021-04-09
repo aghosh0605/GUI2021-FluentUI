@@ -1,13 +1,11 @@
-.Footer {
+.inside {
+  color: white;
   position: absolute;
   height: 48px;
   left: 0px;
   right: 0px;
   bottom: 0px;
-  background: #4d4d4d;
+  background: #35363a;
   mix-blend-mode: hard-light;
   border: 1px solid #000000;
-  box-sizing: border-box;
-  justify-content: space-evenly;
-  display: flex;
 }

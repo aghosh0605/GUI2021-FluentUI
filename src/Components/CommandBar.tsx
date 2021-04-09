@@ -64,7 +64,7 @@ export const ButtonSplitExample: React.FunctionComponent<IButtonExampleProps> = 
       />
       <DefaultButton id="clear" text="Clear All" onClick={_alertClicked} />
       <Stack horizontal horizontalAlign="center" className="outputs">
-        <p id="navtxt">Distancee</p>
+        <p id="navtxt">Distance</p>
         <input type="text" id="TextBoxes" value="Value" />
         <p id="navtxt">Difference</p>
         <input type="text" id="TextBoxes" value="Value" />
