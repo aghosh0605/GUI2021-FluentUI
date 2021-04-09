@@ -14,8 +14,8 @@ export const App: React.FunctionComponent = () => {
   return (
     <div>
       <HeaderExample />
-      {/* <NavBasicExample /> */}
       <ButtonSplitExample />
+       <NavBasicExample /> 
       <SliderVerticalExample />
       <FooterExample />
     </div>
